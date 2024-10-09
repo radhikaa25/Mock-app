@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
+import HowItWorks from "./_components/HowItWorks";
+
 
 function DashboardLayout({ children }) {
   return (
