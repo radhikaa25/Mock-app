@@ -9,7 +9,7 @@ function InterviewItemCard({interviewInfo}) {
         console.log("first")
        router.push(`/dashboard/interview/${interviewInfo?.mockId}`)
     }
-    const onFeedback=()=>{
+    const onFeedbackPress=()=>{
         router.push(`/dashboard/interview/${interviewInfo.mockId}/feedback`)
     }
   return (
@@ -19,7 +19,7 @@ function InterviewItemCard({interviewInfo}) {
         <h2 className='text-xs text-gray-500'>Created At: {interviewInfo.createdAt}</h2>
         <div className='flex justify-between mt-2 gap-5'>
            
-            <Button size="sm" variant="outline"  className="w-full" onClick={onFeedback}>Feedback</Button>
+            <Button size="sm" variant="outline"  className="w-full" onClick={onFeedbackPress}>Feedback</Button>
         
             <Button size="sm" className="w-full" onClick={onStart}>Start</Button>
         </div>
