@@ -29,19 +29,18 @@ function Interview({ params }) {
   };
   return (
     <div className="my-10 ">
-      <h2 className="font-bold text-2xl">Let's Get Started</h2>
-      <div  className="grid grid-cols-1 md:grid-cols-2 gap-10">
-      <div className="flex flex-col my-5 gap-5">
-        <div className="flex flex-col p-5 rounded-lg border gap-5">
-        <h2>
-          <strong>Job Role/Job Position:</strong> {interviewData?.jobPosition}{" "}
-        </h2>
-        <h2>
-          <strong>Job Description/Job Description:</strong>{" "}
-          {interviewData?.jobDesc}{" "}
-        </h2>
-        <h2>
-          <strong>Years of Experince:</strong> {interviewData?.jobExperience}{" "}
+      <h2 className="pl-2  pb-5 text-red-900 font-bold text-6xl">Let's Get Started</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+  <div className="flex flex-col my-5 gap-5">
+    <div className="bg-white shadow-lg rounded-lg p-5 border border-gray-200 gap-5">
+      <h2 className="font-semibold mb-4">
+        <strong>Job Role/Job Position:</strong> {interviewData?.jobPosition}
+      </h2>
+      <h2 className="font-semibold mb-4"> {/* Added margin-bottom here */}
+        <strong>Job Description:</strong> {interviewData?.jobDesc}
+      </h2>
+      <h2 className="font-semibold">
+        <strong>Years of Experience:</strong> {interviewData?.jobExperience}
         </h2>
         </div>
         <div className="p-5 border rounded-lg border-yellow-300 bg-yellow-100 ">

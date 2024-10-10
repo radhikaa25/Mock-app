@@ -14,7 +14,7 @@ function InterviewItemCard({interviewInfo}) {
     }
   return (
     <div className='border shadow-sm rounded-lg p-3'>
-        <h2 className='font-bold text-primary'>{interviewInfo?.jobPosition}</h2>
+        <h2 className='font-bold text-red-900'>{interviewInfo?.jobPosition}</h2>
         <h2 className='text-sm text-gray-600'>{interviewInfo?.jobExperience} Years of Experience</h2>
         <h2 className='text-xs text-gray-500'>Created At: {interviewInfo.createdAt}</h2>
         <div className='flex justify-between mt-2 gap-5'>
