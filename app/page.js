@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="main-container relative w-screen h-screen overflow-hidden">
+<div className="main-container relative w-screen min-h-screen">
         {/* Updated background snippet */}
         <div
           className="absolute inset-0 -z-10 h-full w-full bg-cover bg-center sm:bg-top md:bg-center lg:bg-cover"
