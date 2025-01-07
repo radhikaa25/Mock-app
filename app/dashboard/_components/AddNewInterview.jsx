@@ -79,7 +79,7 @@ function AddNewInterview() {
         <h2 className="text-lg text-center">+ Add new</h2>
       </div>
       <Dialog open={openDialog}>
-        <DialogContent className="max-w-2xl">
+        <DialogContent className="max-w-2xl bg-black">
           <DialogHeader>
             <DialogTitle className="text-2xl">
               Tell us more about your job interviewing
@@ -132,8 +132,8 @@ function AddNewInterview() {
                   <Button disabled={loading} type="submit">
                     {loading ? (
                       <>
-                        <LoaderCircle className="animate-spin" /> Generating
-                        from AI
+                        <LoaderCircle className="animate-spin" /> Starting
+                    
                       </>
                     ) : (
                       "Start Interview"

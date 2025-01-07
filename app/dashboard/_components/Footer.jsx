@@ -7,20 +7,10 @@ const Footer = () => {
         {/* Social media icons container */}
         <div className="mb-6 flex justify-center space-x-2">
           {/* Facebook Icon */}
-          <a
-            href="#!"
-            className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
-          >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512">
-                <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
-              </svg>
-            </span>
-          </a>
 
           {/* Twitter Icon */}
           <a
-            href="#!"
+            href="https://twitter.com/radhikaas25"
             className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
           >
             <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
@@ -32,19 +22,20 @@ const Footer = () => {
 
           {/* Instagram Icon */}
           <a
-            href="#!"
+            href="https://github.com/radhikaa25"
             className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
           >
             <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 488 512">
-                <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .296c-6.629 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.26.793-.577v-2.256c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.089-.746.083-.73.083-.73 1.205.084 1.838 1.237 1.838 1.237 1.07 1.832 2.809 1.302 3.495.995.108-.776.42-1.302.763-1.601-2.665-.3-5.466-1.335-5.466-5.933 0-1.31.467-2.381 1.236-3.222-.124-.303-.536-1.524.117-3.176 0 0 1.008-.323 3.301 1.23.957-.266 1.982-.399 3.004-.404 1.022.005 2.047.138 3.006.404 2.291-1.553 3.298-1.23 3.298-1.23.656 1.653.244 2.874.12 3.176.772.841 1.233 1.912 1.233 3.222 0 4.609-2.806 5.628-5.479 5.921.43.372.815 1.103.815 2.222v3.293c0 .321.192.694.801.576 4.767-1.588 8.202-6.086 8.202-11.387 0-6.627-5.373-12-12-12z" />
               </svg>
             </span>
           </a>
 
+
           {/* LinkedIn Icon */}
           <a
-            href="#!"
+            href="http://www.radhika.com/radhikaa._.25"
             className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
           >
             <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
@@ -56,7 +47,7 @@ const Footer = () => {
 
           {/* GitHub Icon */}
           <a
-            href="#!"
+            href="http://www.linkedin.com/in/radhika-sharma-30403623b"
             className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
           >
             <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
@@ -68,8 +59,33 @@ const Footer = () => {
         </div>
 
         {/* Footer content */}
-        <div className="py-5">
-          <p className="text-sm">© 2024 Your Company. All Rights Reserved.</p>
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+          {/* Left Side */}
+          <p className="text-sm">
+            © {new Date().getFullYear()} Code-Master. All rights reserved.
+          </p>
+
+          {/* Right Side */}
+          <div className="flex items-center space-x-4 mt-4 md:mt-0">
+            <p className="text-sm flex items-center">
+              Made  by Radhika
+            </p>
+            <a
+              href="https://twitter.com/radhikaas25"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400"
+            >
+            </a>
+            <a
+              href="http://www.linkedin.com/in/radhika-sharma-30403623b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500"
+            >
+
+            </a>
+          </div>
         </div>
       </div>
     </footer>

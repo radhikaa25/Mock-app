@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div>
-<div className="main-container relative w-screen min-h-screen">
+<div className="main-container bg-black relative w-screen min-h-screen">
         {/* Updated background snippet */}
         <div
           className="absolute inset-0 -z-10 h-full w-full bg-cover bg-center sm:bg-top md:bg-center lg:bg-cover"
@@ -39,20 +39,20 @@ export default function Home() {
             </div>
 
             <div className="info flex flex-col items-center w-full text-center mb-4 md:mb-0">
-      <h1 className="text-[32px] sm:text-[36px] md:text-[48px] text-red-900 font-bold">
+      <h1 className="text-[32px] sm:text-[36px] md:text-[48px] text-red-600 font-bold">
         Prepare, Practice, Prevail:{" "}
-        <span className="text-orange-600">Mock.Ai</span>
+        <span className="text-yellow-400">Mock.Ai</span>
         <span className="block">for Confident Interviewing</span>
       </h1>
 
-      <div className="mt-2 text-lg sm:text-xl leading-relaxed text-red-900">
+      <div className="mt-2 text-lg sm:text-xl leading-relaxed text-yellow-400">
         <Typewriter
           options={{
             strings: paragraphs,
             autoStart: true,
             loop: true,
             deleteSpeed: 0,
-            delay: 30, // Adjust speed as needed
+            delay: 30, 
           }}
         />
       </div>

@@ -18,7 +18,7 @@ function Interviewlist() {
     }
   return (
     <div>
-<h2 className='p-4 font-medium text-red-900 text-2xl'>Previous Mock Interview</h2>
+<h2 className='p-4 font-medium text-white text-2xl'>Previous Mock Interview</h2>
 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-3'>
             {
                 interviewList&&interviewList.map((interview,index)=>(

@@ -19,9 +19,9 @@ function Header() {
     }
 
     return (
-        <div className='flex p-4 items-center justify-between shadow-m'>
+        <div className='flex p-4 items-center bg-black justify-between shadow-m'>
             {/* Logo */}
-            <Image src={'/logo.svg'} width={160} height={100} alt='logo' />
+            
 
             {/* Empty space in place of removed navigation items */}
             <div className="flex-1"></div>
@@ -31,11 +31,7 @@ function Header() {
                
 
                 {/* How it Works Link */}
-                <li
-                    onClick={() => getRoutLink('/dashboard/how')}
-                    className={`hover:text-primary hover:font-bold transition-all cursor-pointer  ${path === '/dashboard/how' ? 'text-primary font-bold' : ''}`}>
-                    How it Works
-                </li>
+               
 
                
 

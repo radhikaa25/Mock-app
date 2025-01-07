@@ -47,12 +47,12 @@ export default function Page() {
 
         <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
         <div className="max-w-xl lg:max-w-3xl">
-        <img src='./logo.svg' alt="Your Logo" className="h-8 sm:h-10" />
-          <h1 className="mt-4 text-3xl font-bold text-red-900 sm:text-3xl md:text-5xl">
+       
+          <h1 className="mt-4 text-3xl font-bold text-white sm:text-3xl md:text-5xl">
             Welcome to AI-Interviewer
           </h1>
 
-            <p className="text-lg pb-6 mt-4 leading-relaxed text-red-900">
+            <p className="text-lg pb-6 mt-4 leading-relaxed text-white">
               {[
                 "Master interviews with our AI-powered simulation for job seekers.",
                 "Get valuable feedback to enhance your interviewing capabilities today.",
